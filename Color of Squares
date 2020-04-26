@@ -1,0 +1,19 @@
+column_list_1 = "aceg"
+column_list_2 = "bdfh"
+
+row_list = ["1, 2 ,3 ,4, 5, 6, 7, 8"]
+column = input("Enter your coloumn: ")
+row = int(input("Enter your row: "))
+
+if column in column_list_1:
+ 
+ if row % 2 == 0:
+  print("White")
+ else:
+  print("Black")
+
+elif column in column_list_2: 
+ if row % 2 == 0:
+   print("Black")
+ elif row % 2 ==1:
+  print("White")
